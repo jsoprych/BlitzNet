@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/john/CODE/CPP/PROJECTS/NeuralNet/build",
+  "command": "/usr/bin/g++  -I/home/john/CODE/CPP/PROJECTS/NeuralNet/include -g -std=gnu++17 -o CMakeFiles/NeuralNet.dir/src/main.cpp.o -c /home/john/CODE/CPP/PROJECTS/NeuralNet/src/main.cpp",
+  "file": "/home/john/CODE/CPP/PROJECTS/NeuralNet/src/main.cpp",
+  "output": "CMakeFiles/NeuralNet.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/john/CODE/CPP/PROJECTS/NeuralNet/build",
+  "command": "/usr/bin/g++  -I/home/john/CODE/CPP/PROJECTS/NeuralNet/include -g -std=gnu++17 -o CMakeFiles/NeuralNetTests.dir/tests/test_main.cpp.o -c /home/john/CODE/CPP/PROJECTS/NeuralNet/tests/test_main.cpp",
+  "file": "/home/john/CODE/CPP/PROJECTS/NeuralNet/tests/test_main.cpp",
+  "output": "CMakeFiles/NeuralNetTests.dir/tests/test_main.cpp.o"
+}
+]
