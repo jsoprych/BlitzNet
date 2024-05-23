@@ -1,4 +1,4 @@
-# NeuralNet
+# BlitzNet
 
 A C++ library for building and training simple neural networks. This project uses template metaprogramming to support various activation functions, loss functions, and optimization algorithms. The primary focus is on creating a lean and mean neural network framework that can be easily extended and customized.
 
