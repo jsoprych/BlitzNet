@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/john/CODE/CPP/PROJECTS/NeuralNet
+CMAKE_SOURCE_DIR = /home/john/CODE/CPP/PROJECTS/BlitzNet
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/john/CODE/CPP/PROJECTS/NeuralNet/build
+CMAKE_BINARY_DIR = /home/john/CODE/CPP/PROJECTS/BlitzNet/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CODE/CPP/PROJECTS/NeuralNet/build/CMakeFiles /home/john/CODE/CPP/PROJECTS/NeuralNet/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CODE/CPP/PROJECTS/BlitzNet/build/CMakeFiles /home/john/CODE/CPP/PROJECTS/BlitzNet/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CODE/CPP/PROJECTS/NeuralNet/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CODE/CPP/PROJECTS/BlitzNet/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,37 +117,37 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named NeuralNet
+# Target rules for targets named BlitzNet
 
 # Build rule for target.
-NeuralNet: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NeuralNet
-.PHONY : NeuralNet
+BlitzNet: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BlitzNet
+.PHONY : BlitzNet
 
 # fast build rule for target.
-NeuralNet/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet.dir/build.make CMakeFiles/NeuralNet.dir/build
-.PHONY : NeuralNet/fast
+BlitzNet/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlitzNet.dir/build.make CMakeFiles/BlitzNet.dir/build
+.PHONY : BlitzNet/fast
 
 #=============================================================================
-# Target rules for targets named NeuralNetTests
+# Target rules for targets named BlitzNetTests
 
 # Build rule for target.
-NeuralNetTests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NeuralNetTests
-.PHONY : NeuralNetTests
+BlitzNetTests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BlitzNetTests
+.PHONY : BlitzNetTests
 
 # fast build rule for target.
-NeuralNetTests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNetTests.dir/build.make CMakeFiles/NeuralNetTests.dir/build
-.PHONY : NeuralNetTests/fast
+BlitzNetTests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlitzNetTests.dir/build.make CMakeFiles/BlitzNetTests.dir/build
+.PHONY : BlitzNetTests/fast
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet.dir/build.make CMakeFiles/NeuralNet.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlitzNet.dir/build.make CMakeFiles/BlitzNet.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -155,7 +155,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet.dir/build.make CMakeFiles/NeuralNet.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlitzNet.dir/build.make CMakeFiles/BlitzNet.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -163,7 +163,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet.dir/build.make CMakeFiles/NeuralNet.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlitzNet.dir/build.make CMakeFiles/BlitzNet.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 tests/test_main.o: tests/test_main.cpp.o
@@ -171,7 +171,7 @@ tests/test_main.o: tests/test_main.cpp.o
 
 # target to build an object file
 tests/test_main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNetTests.dir/build.make CMakeFiles/NeuralNetTests.dir/tests/test_main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlitzNetTests.dir/build.make CMakeFiles/BlitzNetTests.dir/tests/test_main.cpp.o
 .PHONY : tests/test_main.cpp.o
 
 tests/test_main.i: tests/test_main.cpp.i
@@ -179,7 +179,7 @@ tests/test_main.i: tests/test_main.cpp.i
 
 # target to preprocess a source file
 tests/test_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNetTests.dir/build.make CMakeFiles/NeuralNetTests.dir/tests/test_main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlitzNetTests.dir/build.make CMakeFiles/BlitzNetTests.dir/tests/test_main.cpp.i
 .PHONY : tests/test_main.cpp.i
 
 tests/test_main.s: tests/test_main.cpp.s
@@ -187,7 +187,7 @@ tests/test_main.s: tests/test_main.cpp.s
 
 # target to generate assembly for a file
 tests/test_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNetTests.dir/build.make CMakeFiles/NeuralNetTests.dir/tests/test_main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlitzNetTests.dir/build.make CMakeFiles/BlitzNetTests.dir/tests/test_main.cpp.s
 .PHONY : tests/test_main.cpp.s
 
 # Help Target
@@ -198,8 +198,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... NeuralNet"
-	@echo "... NeuralNetTests"
+	@echo "... BlitzNet"
+	@echo "... BlitzNetTests"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

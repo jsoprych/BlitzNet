@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/john/CODE/CPP/PROJECTS/NeuralNet/CMakeLists.txt"
+  "/home/john/CODE/CPP/PROJECTS/BlitzNet/CMakeLists.txt"
   "CMakeFiles/3.27.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.4/CMakeSystem.cmake"
@@ -44,6 +44,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/NeuralNet.dir/DependInfo.cmake"
-  "CMakeFiles/NeuralNetTests.dir/DependInfo.cmake"
+  "CMakeFiles/BlitzNet.dir/DependInfo.cmake"
+  "CMakeFiles/BlitzNetTests.dir/DependInfo.cmake"
   )

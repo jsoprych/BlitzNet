@@ -54,17 +54,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/john/CODE/CPP/PROJECTS/NeuralNet
+CMAKE_SOURCE_DIR = /home/john/CODE/CPP/PROJECTS/BlitzNet
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/john/CODE/CPP/PROJECTS/NeuralNet/build
+CMAKE_BINARY_DIR = /home/john/CODE/CPP/PROJECTS/BlitzNet/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/NeuralNet.dir/all
-all: CMakeFiles/NeuralNetTests.dir/all
+all: CMakeFiles/BlitzNet.dir/all
+all: CMakeFiles/BlitzNetTests.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,61 +72,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/NeuralNet.dir/clean
-clean: CMakeFiles/NeuralNetTests.dir/clean
+clean: CMakeFiles/BlitzNet.dir/clean
+clean: CMakeFiles/BlitzNetTests.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/NeuralNet.dir
+# Target rules for target CMakeFiles/BlitzNet.dir
 
 # All Build rule for target.
-CMakeFiles/NeuralNet.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet.dir/build.make CMakeFiles/NeuralNet.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet.dir/build.make CMakeFiles/NeuralNet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/john/CODE/CPP/PROJECTS/NeuralNet/build/CMakeFiles --progress-num=1,2 "Built target NeuralNet"
-.PHONY : CMakeFiles/NeuralNet.dir/all
+CMakeFiles/BlitzNet.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlitzNet.dir/build.make CMakeFiles/BlitzNet.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlitzNet.dir/build.make CMakeFiles/BlitzNet.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/john/CODE/CPP/PROJECTS/BlitzNet/build/CMakeFiles --progress-num=1,2 "Built target BlitzNet"
+.PHONY : CMakeFiles/BlitzNet.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/NeuralNet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CODE/CPP/PROJECTS/NeuralNet/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/NeuralNet.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CODE/CPP/PROJECTS/NeuralNet/build/CMakeFiles 0
-.PHONY : CMakeFiles/NeuralNet.dir/rule
+CMakeFiles/BlitzNet.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CODE/CPP/PROJECTS/BlitzNet/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BlitzNet.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CODE/CPP/PROJECTS/BlitzNet/build/CMakeFiles 0
+.PHONY : CMakeFiles/BlitzNet.dir/rule
 
 # Convenience name for target.
-NeuralNet: CMakeFiles/NeuralNet.dir/rule
-.PHONY : NeuralNet
+BlitzNet: CMakeFiles/BlitzNet.dir/rule
+.PHONY : BlitzNet
 
 # clean rule for target.
-CMakeFiles/NeuralNet.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet.dir/build.make CMakeFiles/NeuralNet.dir/clean
-.PHONY : CMakeFiles/NeuralNet.dir/clean
+CMakeFiles/BlitzNet.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlitzNet.dir/build.make CMakeFiles/BlitzNet.dir/clean
+.PHONY : CMakeFiles/BlitzNet.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/NeuralNetTests.dir
+# Target rules for target CMakeFiles/BlitzNetTests.dir
 
 # All Build rule for target.
-CMakeFiles/NeuralNetTests.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNetTests.dir/build.make CMakeFiles/NeuralNetTests.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNetTests.dir/build.make CMakeFiles/NeuralNetTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/john/CODE/CPP/PROJECTS/NeuralNet/build/CMakeFiles --progress-num=3,4 "Built target NeuralNetTests"
-.PHONY : CMakeFiles/NeuralNetTests.dir/all
+CMakeFiles/BlitzNetTests.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlitzNetTests.dir/build.make CMakeFiles/BlitzNetTests.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlitzNetTests.dir/build.make CMakeFiles/BlitzNetTests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/john/CODE/CPP/PROJECTS/BlitzNet/build/CMakeFiles --progress-num=3,4 "Built target BlitzNetTests"
+.PHONY : CMakeFiles/BlitzNetTests.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/NeuralNetTests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CODE/CPP/PROJECTS/NeuralNet/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/NeuralNetTests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CODE/CPP/PROJECTS/NeuralNet/build/CMakeFiles 0
-.PHONY : CMakeFiles/NeuralNetTests.dir/rule
+CMakeFiles/BlitzNetTests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CODE/CPP/PROJECTS/BlitzNet/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BlitzNetTests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/john/CODE/CPP/PROJECTS/BlitzNet/build/CMakeFiles 0
+.PHONY : CMakeFiles/BlitzNetTests.dir/rule
 
 # Convenience name for target.
-NeuralNetTests: CMakeFiles/NeuralNetTests.dir/rule
-.PHONY : NeuralNetTests
+BlitzNetTests: CMakeFiles/BlitzNetTests.dir/rule
+.PHONY : BlitzNetTests
 
 # clean rule for target.
-CMakeFiles/NeuralNetTests.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNetTests.dir/build.make CMakeFiles/NeuralNetTests.dir/clean
-.PHONY : CMakeFiles/NeuralNetTests.dir/clean
+CMakeFiles/BlitzNetTests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BlitzNetTests.dir/build.make CMakeFiles/BlitzNetTests.dir/clean
+.PHONY : CMakeFiles/BlitzNetTests.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/BlitzNetTests.dir/tests/test_main.cpp.o -o /home/john/CODE/CPP/PROJECTS/BlitzNet/BlitzNetTests 

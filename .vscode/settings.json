@@ -1,10 +1,6 @@
 {
-    "r.lsp.promptToInstall": false,
     "files.associations": {
         "*.rmd": "markdown",
-        "stdexcept": "cpp",
-        "*.tcc": "cpp",
-        "deque": "cpp",
         "vector": "cpp"
     }
 }

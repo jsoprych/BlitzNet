@@ -2,10 +2,10 @@
 #define UTILITY_H
 
 #include <iostream>
-#include "Network.h"
+#include "Model.h"
 
 template <typename T, ActivationType Activation>
-void printNetworkState(const Network<T, Activation>& network) {
+void printNetworkState(const Model<T, Activation>& network) {
     const auto& layers = network.getLayers();
     for (size_t i = 0; i < layers.size(); ++i) {
         const auto& nodes = layers[i].getNodes();

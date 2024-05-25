@@ -1,4 +1,4 @@
-/home/john/CODE/CPP/PROJECTS/NeuralNet/build/CMakeFiles/NeuralNet.dir
-/home/john/CODE/CPP/PROJECTS/NeuralNet/build/CMakeFiles/NeuralNetTests.dir
-/home/john/CODE/CPP/PROJECTS/NeuralNet/build/CMakeFiles/edit_cache.dir
-/home/john/CODE/CPP/PROJECTS/NeuralNet/build/CMakeFiles/rebuild_cache.dir
+/home/john/CODE/CPP/PROJECTS/BlitzNet/build/CMakeFiles/BlitzNet.dir
+/home/john/CODE/CPP/PROJECTS/BlitzNet/build/CMakeFiles/BlitzNetTests.dir
+/home/john/CODE/CPP/PROJECTS/BlitzNet/build/CMakeFiles/edit_cache.dir
+/home/john/CODE/CPP/PROJECTS/BlitzNet/build/CMakeFiles/rebuild_cache.dir
